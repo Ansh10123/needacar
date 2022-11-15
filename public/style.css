@@ -1,0 +1,70 @@
+body{
+    margin: 5px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.menuitems{
+    float: right;
+}
+
+
+.search-form{
+    margin: auto;
+}
+
+.item{
+    padding: 10px;
+}
+
+.bgimage{
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    /* object-fit: contain; */
+}
+
+.searchCar{
+    /* border: 3px solid black; */
+    /* border-radius: 10px; */
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+.f{
+    border: 2px solid black;
+    /* text-align: center; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50px;
+}
+
+.Atrip, .Rtrip{
+    width: 48.9%;
+    float: left;
+}
+
+.pickup, .date, .drop{
+    border: 2px solid black;  
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    display: block;
+    position: relative;
+}
+
+input{
+    width: 80%;
+}
